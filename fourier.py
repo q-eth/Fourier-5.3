@@ -15,6 +15,7 @@ for L in lengths:
     Substitute speed
     Since v = c / sqrt(f/f0), express f
     f_max = f0 * (c / (2 * L * f0))^2
-    f_max = f0 * (c / (2 * L * f0))**2
     '''
+    f_max = f0 * (c / (2 * L * f0))**2
+    
     print(f"Длина кабеля: {L} м, максимальная частота: {f_max:.2f} Гц")
